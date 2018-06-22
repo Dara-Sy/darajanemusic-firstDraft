@@ -307,6 +307,25 @@ h2{
         background-size: cover;
     }
 
+    #aboutwrap {
+      position: relative;
+      left: 5%;
+    }
+
+
+
+    .about1 {
+      width: 80%;
+      height: 80%;
+    }
+
+    .box {
+      width: 80%;
+      height: 80%;
+    }
+
+
+
 }
 
 
@@ -342,9 +361,9 @@ h2{
         /*left: 50%;*/
     }
   	.aboutSection{
-  	position: relative;
-  	left: 0%;
-  	top: 160px;
+    	position: relative;
+    	left: 0%;
+    	top: 160px;
   	}
     .aboutSection {
     	text-align: center;
@@ -353,12 +372,19 @@ h2{
 }
 
 
-
 @media only screen and (max-width: 600px) {
   .logo1 {
       position: relative;
-      left: 20%;
+      left: 15%;
       text-align: center;
+    }
+
+    .guitar {
+      position: relative;
+      width: 90%;
+      height: 90%;
+      left: -10px;
+      /*text-align: center;*/
     }
 
 	.image1{
@@ -368,7 +394,37 @@ h2{
         background-size: contain;
         text-align: center;
     }
-    /*the first 3 videos will stay on the page at responsive*/
+
+  .about1 {
+      position: relative;
+      width: 80%;
+      height: 80%;
+    }
+
+  .box {
+      position: relative;
+      left: 30px;
+      width: 80%;
+      height: 80%;
+    }
+
+  .gallery {
+      width: 80%;
+      height: 80%;
+      position: relative;
+      left: 4%;
+    }
+
+  .vidGallery {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      top: 1300px;
+      left: 1%;
+    }
+
+
+  /*the first six videos will stay on the page at responsive*/
 	.onlySixVideos {
         position: relative;
         left: 7%;
@@ -396,11 +452,33 @@ h2{
 	background-size: cover;
 	/*z-index: 1;*/
 	}
-
-	.contact-title {
-		background-size: cover;
-	}
-
+  .contact {
+      display: none;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+
+    .lit{
+      width:100%;
+      margin: 0;
+      padding: 0;
+    }
+    .gallery {
+      width: 80%;
+      height: 80%;
+      position: relative;
+      left: 4%;
+    }
+
+  .vidGallery {
+      position: absolute;
+      width: 80%;
+      height: 80%;
+      top: 1300px;
+      left: -20px;
+    }
+
+  }
 
 
