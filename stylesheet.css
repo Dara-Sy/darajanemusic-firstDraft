@@ -33,7 +33,7 @@ ul{
 }
 
 
-li{ 
+li{
 	position: relative;
 	top: 30px;
 	text-decoration: none;
@@ -227,7 +227,7 @@ h2{
 	text-align: left;
 	padding: 2px;
 	margin: 0 auto;
-  
+
 }
 
 
@@ -279,7 +279,7 @@ h2{
 	display:block;
 	margin:bottom:-10px;
 
-	
+
 }
 
 
@@ -292,15 +292,11 @@ h2{
 
 .piano {
 	position: relative;
-	top: 0px;
+	top: -20px;
 	width: 100%;
 }
 
-.footContainer {
-	position: absolute;
-	top: -300px;
 
-}
 
 @media only screen and (max-width: 900px) {
     nav{
@@ -310,6 +306,7 @@ h2{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
 }
 
 
@@ -326,7 +323,7 @@ h2{
         background-size: 100% 100%;
     }
     /*all the other videos disappear at 800px or less*/
-    .theRestOfThem { 
+    .theRestOfThem {
         display: none;
     }
     .pearlwedding{
@@ -339,17 +336,16 @@ h2{
         background-size: 100% 100%;
         text-align: center;
         left:-40px;
-
     }
     .box {
     	text-align: center;
         /*left: 50%;*/
     }
-	.aboutSection{
-	position: relative;
-	left: 0%;
-	top: 160px;
-	}
+  	.aboutSection{
+  	position: relative;
+  	left: 0%;
+  	top: 160px;
+  	}
     .aboutSection {
     	text-align: center;
         /*left: 50%;*/
@@ -359,6 +355,12 @@ h2{
 
 
 @media only screen and (max-width: 600px) {
+  .logo1 {
+      position: relative;
+      left: 20%;
+      text-align: center;
+    }
+
 	.image1{
         height: auto;
         width: 100%;
@@ -398,21 +400,7 @@ h2{
 	.contact-title {
 		background-size: cover;
 	}
-	
 
-    /*.justContact {
-    	position: absolute;
-		left:-40px;
-		background-color: black;
-		color: white;
-		top: -1500px;
-		width: 90%;
-		height: 360px;
-		font-family: Arial;
-		font-size: 13px;
-		margin: 0 auto;
-		text-align: center;
-	    }*/
 }
 
 
